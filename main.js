@@ -1,6 +1,5 @@
 const calcNineStar = (year, isReiwa) => {
   const nineStars = ['一白水星', '二黒土星', '三碧木星', '四緑木星', '五黄土星', '六白金星', '七赤金星', '八白土星', '九紫火星']
-  const stringYear = year.toString()
   let result = 0
   let num1 = 0
   let num2 = 0
