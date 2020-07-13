@@ -1,5 +1,7 @@
 ## 九星気学計算
 
+![keisan](https://user-images.githubusercontent.com/19667736/87350636-2338a280-c593-11ea-91b2-47bc4c8cf76f.png)
+
 和暦を入力するだけで、自分の本命星がわかります。
 
 ### 本命星
