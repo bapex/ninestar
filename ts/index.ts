@@ -31,16 +31,16 @@ const calcNineStar = (gengou: string, year: number): string => {
 class GetResult {
   constructor() {
     const btn = document.querySelector('#btn')
-    btn!.addEventListener("click", (e:Event) => this.clickResultBtn());
+    btn!.addEventListener("click", (e:Event) => this.clickResultBtn())
   }
   clickResultBtn(){
     const select = document.querySelector('select')
     const input = document.querySelector('input')
     const resultDiv = document.querySelector('#result')
     const gengou: string = select!.value
-  	const year: number = parseInt(input!.value)
+    const year: number = parseInt(input!.value)
     const result: string = calcNineStar(gengou, year)
-  	resultDiv!.textContent = result;
+  	resultDiv!.textContent = result
   }
 }
 
