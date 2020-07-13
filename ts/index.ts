@@ -40,7 +40,7 @@ class GetResult {
     const gengou: string = select!.value
     const year: number = parseInt(input!.value)
     const result: string = calcNineStar(gengou, year)
-  	resultDiv!.textContent = result
+    resultDiv!.textContent = result
   }
 }
 
